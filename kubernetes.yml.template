@@ -12,9 +12,9 @@ spec:
   template:
     metadata:
       labels:
-        app: twitter-feed
+        app: twitter-feed-v2
         commit: ${WERCKER_GIT_COMMIT}
-        color: blue
+        color: green
     spec:
       containers:
       - name: twitter-feed
